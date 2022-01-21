@@ -1,0 +1,11 @@
+@media only screen and (max-width: 480px){
+	main{
+		width: 95%;
+		padding: 30px 0px;
+	}
+	.photo{ 
+	  width: calc(100% - 40px);
+	  height: calc((50vw - 40px)/ 9 * 16);
+	  margin: 10px;
+    }
+}

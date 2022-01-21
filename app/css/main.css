@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: Roboto;
+	src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+body{
+	background-image: url(../img/fon5.jpg);
+}
+
+main{
+	width: 80%;
+	background-color: #fff;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.6);
+}
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px)/ 16 * 9);
+	margin: 20px;
+	background-color: purple;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+	transition: all 0.4s ease-in-out
+
+}
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-family: Roboto;
+
+}
+.photo:hover{
+	transform: scale(1.07) rotate(3deg);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.9);
+}
+.photo1{
+	background-image: url(../img/img1.jpg);
+}
+.photo2{
+	background-image: url(../img/img2.jpg);
+}
+.photo3{
+	background-image: url(../img/img3.jpg);
+}
+.photo4{
+	background-image: url(../img/img4.jpg);
+}
+.photo5{
+	background-image: url(../img/img1.jpg);
+}
+.photo6{
+	background-image: url(../img/img1.jpg);
+}
+.photo7{
+	background-image: url(../img/img1.jpg);
+}
+.photo8{
+	background-image: url(../img/img1.jpg);
+}
+.photo9{
+	background-image: url(../img/img1.jpg);
+}
+.photo10{
+	background-image: url(../img/img1.jpg);
+}
+.photo11{
+	background-image: url(../img/img1.jpg);
+}
+.photo12{
+	background-image: url(../img/img1.jpg);
+}
+.photo13{
+	background-image: url(../img/img1.jpg);
+}
+.photo14{
+	background-image: url(../img/img1.jpg);
+}
+.photo15{
+	background-image: url(../img/img1.jpg);
+}
+.photo16{
+	background-image: url(../img/img1.jpg);
+}
